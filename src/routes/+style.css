@@ -1,0 +1,63 @@
+/* def font */
+@font-face {
+    font-family: 'WAGURITTF';
+    src: url(
+        'https://cdn.jsdelivr.net/gh/projectnoonnu/2403@1.0/WAGURITTF.woff2') format('woff2');
+    font-weight: normal;
+    font-sty\le: normal;
+}
+
+/* def app sty */
+#app{   
+    font-family: 'WAGURITTF';
+    padding-left: 30px;
+    font-size: small;
+    padding-right: 30px;
+}
+
+#post{
+    margin-top: 20px;
+}
+
+
+/* def nav font */
+nav{
+    font-family: 'WAGURITTF';
+    background: #b3b3b3;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 30px;
+    border-radius: 10px;
+}
+
+a{
+    text-decoration-line: none;
+    text-decoration: none;
+    color: #000;
+} 
+
+input{
+    margin: 3px;
+    font-family: 'WAGURITTF';
+    padding: 5px;
+    border-radius: 10px;
+    border-color: #000;
+    width: 200px;
+    height: auto;
+}
+textarea{
+    margin: 3px;
+    font-family: 'WAGURITTF';
+    padding: 5px;
+    border-radius: 10px;
+    border-color: #000;
+    width: 200px;
+    height: 60px;
+}
+input:hover, textarea:hover{
+    border-color: rgb(0, 225, 255);
+}
+
+body{
+    margin: 5px;
+}
