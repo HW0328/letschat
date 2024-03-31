@@ -39,6 +39,7 @@
                 data.content == "" 
                 
         ) {
+    
             alert("Please input user name and content.")
         } else {
             try {
